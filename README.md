@@ -11,6 +11,8 @@ assembles everything into a single branded PDF (plus Markdown).
 It was built to transcribe a 16-talk conference (4h+ of Russian audio) into one
 hand-off-ready document. It works for any language whisper supports.
 
+![scribeforge detects whisper's repetition loops and re-runs the file clean](assets/loop-repair.png)
+
 ---
 
 ## Why another transcription tool?
