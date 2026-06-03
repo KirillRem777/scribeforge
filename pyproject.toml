@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scribeforge"
+version = "0.1.0"
+description = "Turn talks and videos into clean, readable transcripts — with automatic whisper loop-repair, LLM polishing and a branded PDF."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Kirill Rem" }]
+keywords = ["transcription", "whisper", "subtitles", "speech-to-text", "pdf", "rutube", "youtube"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "yt-dlp>=2024.1.0",
+    "openai>=1.0.0",
+]
+
+[project.optional-dependencies]
+pdf = ["markdown>=3.4"]
+
+[project.scripts]
+scribeforge = "scribeforge.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/USERNAME/scribeforge"
+Issues = "https://github.com/USERNAME/scribeforge/issues"
+
+[tool.setuptools]
+packages = ["scribeforge"]

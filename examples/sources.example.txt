@@ -1,0 +1,8 @@
+# scribeforge sources file
+# One talk per line:   URL | Speaker (optional) | Title/track (optional)
+# Blank lines and lines starting with # are ignored.
+# Any site yt-dlp supports works (YouTube, RuTube, Vimeo, direct .mp4, ...).
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ | Jane Speaker   | Opening keynote
+https://rutube.ru/video/0123456789abcdef0123456789abcdef/ | John Doe | Track 2 — Operations
+https://example.com/recordings/panel.mp4 |               | Closing panel
