@@ -29,8 +29,8 @@ pdf = ["markdown>=3.4"]
 scribeforge = "scribeforge.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/USERNAME/scribeforge"
-Issues = "https://github.com/USERNAME/scribeforge/issues"
+Homepage = "https://github.com/KirillRem777/scribeforge"
+Issues = "https://github.com/KirillRem777/scribeforge/issues"
 
 [tool.setuptools]
 packages = ["scribeforge"]
