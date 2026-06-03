@@ -1,5 +1,9 @@
 # scribeforge
 
+[![CI](https://github.com/KirillRem777/scribeforge/actions/workflows/ci.yml/badge.svg)](https://github.com/KirillRem777/scribeforge/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 **Turn talks and videos into clean, readable transcripts — and one polished PDF.**
 
 `scribeforge` takes a list of video URLs (YouTube, RuTube, Vimeo, direct files —
